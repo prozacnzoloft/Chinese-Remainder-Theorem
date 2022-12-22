@@ -51,7 +51,7 @@ int main()
 	}
 	for(int i=0; i<noE; i++)
 	{
-		for(int j=noE; j<i; j--)
+		for(int j=noE; j>i; j--)
 		{
 			if (GCD(matM[i],matM[j])==0)
 			{
